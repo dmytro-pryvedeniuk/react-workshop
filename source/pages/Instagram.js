@@ -1,10 +1,11 @@
 import React from 'react';
+import Header from '../components/Header';
 
 export default class Instagram extends React.Component {
     render() {
         return (
             <>
-                <h1>Header</h1>
+                <Header />
                 <h1>Content</h1>
             </>
         );
