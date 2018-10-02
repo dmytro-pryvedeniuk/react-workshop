@@ -9,6 +9,15 @@ export default class Profile extends React.Component {
                     className = 'avatar'
                     src = { avatar }
                 />
+                <div className = 'main'>
+                    <span className = 'nickname'>nasa</span>
+                    <div className = 'stats'>
+                        <div>
+                            <span>2,437&nbsp;</span>
+                            posts
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }
