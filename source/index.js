@@ -6,8 +6,8 @@ import ReactDOM from 'react-dom';
 import './theme/init';
 
 export default class Instagram extends React.Component {
-    render () {
-        return <div className = 'start'>🌟</div>
+    render() {
+        return <div className = 'start'>🌟</div>;
     }
 }
 
