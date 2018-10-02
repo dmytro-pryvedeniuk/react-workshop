@@ -9,6 +9,11 @@ export default class Header extends React.Component {
                     placeholder = 'Search'
                     type = 'text'
                 />
+                <div className = 'nav'>
+                    <div className = 'explore' />
+                    <div className = 'likes' />
+                    <div className = 'settings' />
+                </div>
             </div>
         );
     }
