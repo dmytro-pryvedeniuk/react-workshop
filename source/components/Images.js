@@ -5,7 +5,12 @@ import Image from './Image';
 export default class Images extends React.Component {
     render() {
         const imagesJSX = images.map((image) => {
-            return <Image src = { image.src } />;
+            return (
+                <Image
+                    key = { image.id }
+                    src = { image.src }
+                />
+            );
         });
 
         return <div className = 'images'>{imagesJSX}</div>;
