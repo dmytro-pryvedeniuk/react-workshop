@@ -16,6 +16,14 @@ export default class Profile extends React.Component {
                             <span>2,437&nbsp;</span>
                             posts
                         </div>
+                        <div>
+                            <span>34.9m&nbsp;</span>
+                            followers
+                        </div>
+                        <div>
+                            <span>70&nbsp;</span>
+                            following
+                        </div>
                     </div>
                 </div>
             </div>
