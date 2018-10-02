@@ -1,12 +1,13 @@
 import React from 'react';
-import images from '../theme/assets/images'
+import images from '../theme/assets/images';
+import Image from './Image';
 
 export default class Images extends React.Component {
     render() {
-        return (
-            <div className = 'images'>
-                images
-            </div>
-        );
+        const imagesJSX = images.map((image) => {
+            return <Image src = { image.src } />;
+        });
+
+        return <div className = 'images'>{imagesJSX}</div>;
     }
 }
