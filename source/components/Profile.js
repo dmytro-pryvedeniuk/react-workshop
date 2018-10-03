@@ -1,5 +1,6 @@
 import React from 'react';
 import avatar from '../theme/assets/avatars/nasa.jpg';
+import Stories from './Stories';
 
 export default class Profile extends React.Component {
     render() {
@@ -13,7 +14,7 @@ export default class Profile extends React.Component {
                     <span className = 'nickname'>nasa</span>
                     <div className = 'stats'>
                         <div>
-                            <span>2,437&nbsp;</span>
+                            <span>2,436&nbsp;</span>
                             posts
                         </div>
                         <div>
@@ -25,7 +26,9 @@ export default class Profile extends React.Component {
                             following
                         </div>
                     </div>
+                    <span className = 'name'>NASA</span>
                 </div>
+                <Stories />
             </div>
         );
     }

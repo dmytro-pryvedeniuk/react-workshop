@@ -2,8 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-between;
-    padding: 0 22px;
+    justify-content: center;
+    /*padding: 0 22px;*/
     
     @media (--phonePortrait),
         (--phoneLandscape),
